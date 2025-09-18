@@ -1,0 +1,11 @@
+// copy past med ctr+shift+insert
+
+git clone URL                // kopiere et repository 
+
+git pull                     // henter nyeste version af repository
+
+git add file.file-type       // kopiere document ex. text.txt // find filtype hved at trykke alt+enter eller højreklik og tryk egenskaber
+
+git commit -m"indsæt besked" // besked til hvad du har laver, nok ikke brug æøå
+
+git push                     // uploader det
