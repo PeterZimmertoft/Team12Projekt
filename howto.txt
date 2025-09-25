@@ -8,8 +8,43 @@ git add file.file-type       // kopiere document ex. text.txt // find filtype hv
 
 git add folder-name/	     // samme som med fil men navn på folder og så /, uden mellemrum Carl
 
+git add . 		     // tilføjer bare alt ændret
+
 git commit -m"indsæt besked" // besked til hvad du har laver
 
 git push                     // uploader det
 
 git push origin 	     // upload ændringer i fil
+
+
+
+
+git branch navn_på_branch    // laver ny branch  
+
+git checkout navn_på_branch  // går til den branch
+
+dir 			     // viser hvad der er i mappen
+
+mkdir navn_her		     // laver ny mappe
+
+cd navn_på_mappe	     // går ind i mappe
+
+cd ..			     // går tilbage en mappe
+
+touch navn.filtype	     // opret fil
+
+git status		     // viser status
+
+git push --set-upstream origin navn_på_branch // Git brokker sig over, at din lokale branch ikke har nogen upstream 						(remote) branch endnu. Så git kan ikke automatisk give dig lov til at 						benytte "git push", da git ikke ved, hvor dit commit skal hen.
+
+						Du kan fikse problemet ved at benytte det hint, git bash giver dig:
+						"giver mening vis du ser det"
+
+git log			      // viser du seneste ændringers kommentare og hvem der har lavet dem og noget
+				 tryk på "q" for at komme ud af det
+
+git log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short // pænt eller noget
+git config --global alias.hist "log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short" // hvis du vil lave 												   en alias
+git hist		      // alias til den der flotte log, efter du har kørt den lige over her
+
+
