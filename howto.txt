@@ -13,3 +13,16 @@ git commit -m"indsæt besked" // besked til hvad du har laver
 git push                     // uploader det
 
 git push origin 	     // upload ændringer i fil
+
+
+
+dir 			     // viser hvad der er i mappen
+
+mkdir navn_her		     // laver ny mappe
+
+cd navn_på_mappe	     // går ind i mappe
+
+cd ..			     // går tilbage en mappe
+
+touch navn.filtype	     // opret fil
+
