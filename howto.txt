@@ -35,7 +35,7 @@ touch navn.filtype	     // opret fil
 
 git status		     // viser status
 
-git push --set-upstream origin navn_på_branch // Git brokker sig over, at din lokale branch ikke har nogen upstream 						(remote) branch endnu. Så git kan ikke automatisk give dig lov til at 						benytte "git push", da git ikke ved, hvor dit commit skal hen.
+git push --set-upstream origin navn_på_branch // Git brokker sig over, at din lokale branch ikke har nogen upstream (remote) branch endnu. Så git kan ikke automatisk give dig lov til at benytte "git push", da git ikke ved, hvor dit commit skal hen.
 
 						Du kan fikse problemet ved at benytte det hint, git bash giver dig:
 						"giver mening vis du ser det"
